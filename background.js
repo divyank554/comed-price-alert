@@ -20,7 +20,7 @@ chrome.alarms.onAlarm.addListener(async (alarm) => {
           chrome.notifications.create({
             type: "basic",
             iconUrl: "icon.png",
-            title: "Price Alert!",
+            title: "Comed Price Alert!",
             message: `Current price: ${latestPrice}¢/kWh (Threshold: ${PRICE_THRESHOLD}¢)`
           });
         }
