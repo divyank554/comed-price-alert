@@ -1,5 +1,5 @@
 // Set your price threshold (cents/kWh)
-let PRICE_THRESHOLD = 10.0;
+let PRICE_THRESHOLD = 1.0;
 
 // ComEd 5-minute pricing API
 const API_URL = "https://hourlypricing.comed.com/api?type=5minutefeed&format=json";
