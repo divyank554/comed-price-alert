@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "ComEd Price Alert",
+    "version": "1.0",
+    "description": "Alerts when electricity prices cross your threshold",
+    "permissions": ["alarms", "notifications", "storage"],
+    "host_permissions": ["https://hourlypricing.comed.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "icon.png"
+    }
+  }
+  
